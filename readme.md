@@ -29,6 +29,7 @@ FarmConnect addresses these challenges through a centralized digital marketplace
 
 FarmConnect creates a direct digital connection between farmers/FPOs and buyers.
 
+```text
                     FARMERS / FPOs
                            │
                            ▼
@@ -52,7 +53,7 @@ FarmConnect creates a direct digital connection between farmers/FPOs and buyers.
                     ▼             ▼
               ROUTE OPT.      DELIVERY
 
-The platform additionally provides:
+The platform combines marketplace functionality with:
 
 📦 Product and inventory management
 🛒 Consumer ordering
@@ -63,8 +64,8 @@ The platform additionally provides:
 💳 Digital payment support
 📊 Analytics dashboards
 👥 User Roles
+👨‍🌾 Farmer / FPO
 
-# 👨‍🌾 Farmer / FPO
 Farmers and FPOs can:
 
 Create and manage profiles
@@ -75,8 +76,8 @@ Receive and manage orders
 View sales and earnings
 View demand forecasts
 Receive demand-related insights
+🛒 Consumer
 
-# 🛒 Consumer
 Consumers can:
 
 Create an account
@@ -89,8 +90,8 @@ Make digital payments
 Track orders
 View order history
 Submit reviews
+🏢 Bulk Buyer
 
-# 🏢 Bulk Buyer
 Bulk buyers may include:
 
 Restaurants
@@ -109,8 +110,8 @@ Specify delivery requirements
 Find suitable farmers/FPOs
 Place bulk orders
 Track deliveries
+👨‍💼 Administrator
 
-# 👨‍💼 Administrator
 Administrators can:
 
 Manage platform users
@@ -121,10 +122,8 @@ Monitor bulk requirements
 Monitor deliveries
 Manage reported issues
 View platform analytics
-
-# 🤖 Intelligent Features
-
-# 📈 AI-Based Demand Forecasting
+🤖 Intelligent Features
+📈 AI-Based Demand Forecasting
 
 FarmConnect will use historical marketplace/order data to estimate future demand for agricultural products.
 
@@ -156,7 +155,7 @@ Application-generated historical order data
 
 Synthetic data will be clearly identified as demonstration data.
 
-# 🚚 Logistics & Route Optimization
+🚚 Logistics & Route Optimization
 
 The platform will support delivery planning using:
 
@@ -174,7 +173,7 @@ Google OR-Tools
 
 The optimized route will be visualized through an interactive map.
 
-# 🏗️ System Architecture
+🏗️ System Architecture
 
 The planned architecture separates the major application components:
 
@@ -217,8 +216,7 @@ Backend
    ├── OR-Tools
    │
    └── Payment Gateway
-
-# 🛠️ Technology Stack
+🛠️ Technology Stack
 Layer	Technology
 Frontend	React + Vite
 Styling	Tailwind CSS
@@ -236,7 +234,7 @@ Version Control	Git + GitHub
 
 Technologies may be refined during implementation based on technical requirements and testing.
 
-# 🔐 Security
+🔐 Security
 
 Security will be considered throughout development.
 
@@ -255,7 +253,7 @@ CORS configuration
 
 Sensitive credentials will not be committed to the GitHub repository.
 
-# 🗄️ Planned Database Entities
+🗄️ Planned Database Entities
 
 The planned database will include entities such as:
 
@@ -278,7 +276,7 @@ Notifications
 
 The final schema and relationships will be documented before backend implementation.
 
-# 📁 Project Structure
+📁 Project Structure
 FarmConnect/
 │
 ├── docs/
@@ -297,8 +295,7 @@ FarmConnect/
 ├── .gitignore
 │
 └── README.md
-
-# 🚧 Project Status
+🚧 Project Status
 
 Current Stage: Planning & Architecture
 
@@ -326,8 +323,7 @@ Development Roadmap
  Testing
  Deployment
  Final documentation
-
-# 📊 Project Goals
+📊 Project Goals
 
 The project aims to demonstrate how modern software technologies can be combined to address agricultural supply-chain challenges.
 
@@ -340,8 +336,7 @@ Support bulk procurement
 Improve demand planning
 Improve delivery planning
 Reduce supply-chain inefficiencies
-
-# 🎓 Portfolio Focus
+🎓 Portfolio Focus
 
 FarmConnect is being developed as a portfolio-quality full-stack project demonstrating practical skills in:
 
@@ -358,14 +353,13 @@ Payment integration
 Cloud deployment
 Software testing
 Git/GitHub workflows
-
-# 📌 Project Context
+📌 Project Context
 
 This project is inspired by Smart India Hackathon 2026 Problem Statement SIH26033, focused on the agricultural supply-chain challenge of multiple intermediaries reducing farmers' earnings and increasing consumer prices.
 
 The implementation is an independent portfolio/prototype project and is not an official government platform.
 
-# 👨‍💻 Development Philosophy
+👨‍💻 Development Philosophy
 
 FarmConnect will prioritize solving the underlying agricultural supply-chain problem rather than simply creating a conventional e-commerce application.
 
@@ -382,7 +376,6 @@ Efficient Logistics
 Better Buyer Access
           ↓
 Reduced Supply-Chain Inefficiency
+⭐ Long-Term Vision
 
- # ⭐ Long-Term Vision
-
-The long-term goal is to evolve FarmConnect into a scalable digital agricultural marketplace where farmers/FPOs can access buyers directly while data-driven forecasting and logistics optimization help improve the efficiency of the agricultural supply chain.
+The long-term goal is to evolve FarmConnect into a scalable digital agricultural marketplace where farmers/FPOs can access buyers directly while data-driven forecasting and logistics optimization help improve the efficiency of the supply chain.
